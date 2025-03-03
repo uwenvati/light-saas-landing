@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export",
+  "deploy": "npm run export && gh-pages -d out"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "framer-motion": "^11.2.14",
     "next": "14.2.4",
     "react": "^18",
