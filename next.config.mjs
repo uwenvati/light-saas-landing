@@ -32,7 +32,7 @@ const nextConfig = {
   // Add GitHub Pages settings
   output: "export", // Important for static export
   basePath: "/light-saas-landing", // Replace with your actual GitHub repo name
-  assetPrefix: "/lighr-saas-landing/", // Same as above
+  assetPrefix: "/light-saas-landing/", // Same as above
 };
 
 export default nextConfig;
